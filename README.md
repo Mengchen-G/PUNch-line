@@ -1,3 +1,8 @@
+# are-you-kidding
+
+## T9 Hackson Project
+## Team members: Caleb Cyphers, Mengchen Gong, Tianli Wu
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
