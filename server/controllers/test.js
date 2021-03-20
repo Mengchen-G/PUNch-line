@@ -10,10 +10,7 @@ export const getTests = async (req, res) => {
 }
 
 export const postTest =  async (req, res) => {
-    const post = {
-                     "title":"helel",
-                     "message" : "hdfdfdfdhhhhh"
-                 };
+    const post = req.body;
     const newPost = new Test(post);
     try {
         await newPost.save();
