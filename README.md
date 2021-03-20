@@ -1,4 +1,6 @@
-# are-you-kidding
+# PUNch-line
 
 ## T9 Hackson Project
+React Web application that generate random jokes for users. 
+
 Team members: Caleb Cyphers, Mengchen Gong, Tianli Wu
