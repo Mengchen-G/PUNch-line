@@ -18,6 +18,7 @@ function HomePage() {
     <div className="HomePage">
       <h1>Hello World</h1>
       {error && <p>Sorry, there was a problem loading the joke</p>}
+      {!randomJoke.punchline && <p>The joke is loading...</p>}
       {randomJoke.punchline && <h2>{randomJoke.setup}</h2>}
       <br />
       {randomJoke.punchline && <h2>{randomJoke.punchline}</h2>}
