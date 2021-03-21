@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" render={() => <HomePage />} />
-        <Route exact path="/thoughts" render={() => <PunInput />} />
+        <Route exact path="/input" render={() => <PunInput />} />
       </Switch>
     </div>
   );

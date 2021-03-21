@@ -4,17 +4,11 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="nav-bar">
-      <NavLink to="/" className="nav-button">
-        Home
-      </NavLink>
-      <NavLink to="/joke" className="nav-button">
+      <NavLink to="/" className="nav-button slide-in-bck-center">
         Joke
       </NavLink>
-      <NavLink to="/thoughts" className="nav-button">
-        My thoughts
-      </NavLink>
-      <NavLink to="/help" className="nav-button">
-        Panic
+      <NavLink to="/input" className="nav-button slide-in-bck-center">
+        New Joke
       </NavLink>
     </nav>
   );
