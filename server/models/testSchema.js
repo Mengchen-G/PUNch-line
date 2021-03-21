@@ -1,10 +1,10 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const testSchema = mongoose.Schema({
-    title: String,
-    message: String,
+  setup: String,
+  punchline: String,
 });
 
-const Test = mongoose.model('Test', testSchema);
+const Test = mongoose.model("Test", testSchema);
 
 export default Test;
