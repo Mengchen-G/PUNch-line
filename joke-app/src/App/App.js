@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { getJoke } from "../apiCalls";
 
@@ -12,17 +12,15 @@ function App() {
   };
   useEffect(() => {
     loadNewJoke();
-  });
+  }, []);
 
   return (
-    <Router>
-      <div className="App">
-        <h1>Hello World</h1>
-        {randomJoke.punchline && <h2>{randomJoke.setup}</h2>}
-        <br />
-        {randomJoke.punchline && <h2>{randomJoke.punchline}</h2>}
-      </div>
-    </Router>
+    <div className="App">
+      <h1>Hello World</h1>
+      {randomJoke.punchline && <h2>{randomJoke.setup}</h2>}
+      <br />
+      {randomJoke.punchline && <h2>{randomJoke.punchline}</h2>}
+    </div>
   );
 }
 
